@@ -31,12 +31,13 @@
                     <a href="tel:+79280761498" class="header_number">
                         +7 928 076 14 98
                     </a>
-                    <button class="header_btn">Заказать обратный звонок</button>
+                    <a href="#" class="header_btn open-popup">Заказать обратный звонок</a>
+                    
                 </div>
             </div>
         </div>
     </header>
-    <main>
+    <!-- <main>
         <section class="banner">
             <div class="container">
                 <h1 class="banner_title">
@@ -333,6 +334,33 @@
             <script src="https://api-maps.yandex.ru/2.1/?apikey=0c8be340-8183-4b3a-a0dd-8efa30053523&lang=ru_RU">
             </script>
         </section>
+        <section class="popup__bg"> 
+            
+            <form class="popup">
+                <img src="./assets/img/close.svg" class="close-popup">
+                <h1 class="popup_title">Свяжитесь с нами</h1>
+                <p class="popup_text">Оставьте свои контактные данные, чтобы наш менеджер смог связаться с вами в ближайшее время.</p>
+                <label>
+                    <input type="text" name="name" placeholder="Имя">
+                    
+                </label>
+                <label>
+                    <input type="email" name="email" placeholder="Эл. почта">
+                    
+                </label>
+                <label>
+                    <input type="tel" name="tel" placeholder="Телефон">
+                    
+                </label>
+                <button class="send">Отправить</button>
+            </form>
+
+            <form class="popup_suc">
+                <img src="./assets/img/close.svg" id="close" class="close-popup">
+                <h1 class="popup_suc-title">Успешно!</h1>
+                <button class="close-popup2">Закрыть</button>
+            </form>
+        </section> 
     </main>
     <footer class="footer">
         <div class="container">
@@ -375,7 +403,7 @@
         <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
         <script src="./assets/main.js"></script>
 
-    </footer>
+    </footer> -->
 </body>
 
 </html>
