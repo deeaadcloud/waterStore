@@ -78,7 +78,7 @@ swipers.forEach(value => {
 
 var swiper2 = new Swiper(".swiper2", {
     watchSlidesProgress: true,
-    slidesPerView: 2.5,
+    slidesPerView: 1,
     centeredSlides: true,
     centerInsufficientSlides: false,
     scrollbar: {
@@ -91,8 +91,14 @@ var swiper2 = new Swiper(".swiper2", {
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        321: {
+            slidesPerView: 2.5,
+        }
     }
-});
+}
+);
 
 // swiper par
 
@@ -163,3 +169,4 @@ document.addEventListener('click', (e) => { // Вешаем обработчик
 
 
 // popup par
+
