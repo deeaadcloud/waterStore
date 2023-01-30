@@ -614,7 +614,7 @@ header {
 
     // }
 
-    @media (max-width: 320px) {
+    @media (max-width: 375px) {
         height: 570px;
         .banner_title {
             margin-top: 63px;
@@ -814,7 +814,7 @@ header {
         }
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: 375px) {
         padding: 45px 0;
 
         .about_inner {
@@ -835,7 +835,7 @@ header {
         }
 
         .swiper2 {
-            max-width: 320px;
+            max-width: 375px;
 
             .swiper-pagination-fraction {
                 left: 2%;
@@ -1044,7 +1044,7 @@ header {
             margin-bottom: 80px;
         }
     }
-    @media (max-width: 320px) {
+    @media (max-width: 375px) {
         .container{
         
                 padding: 0 15px;

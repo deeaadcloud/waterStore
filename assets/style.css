@@ -374,7 +374,7 @@ header {
     .banner .swiper1 .swiper-pagination-bullet-active {
       color: #fff;
       background: #DEDEDE; }
-  @media (max-width: 320px) {
+  @media (max-width: 375px) {
     .banner {
       height: 570px; }
       .banner .banner_title {
@@ -505,7 +505,7 @@ header {
       color: #2A2A2A;
       font-size: 18px;
       max-width: 233px; }
-  @media (max-width: 320px) {
+  @media (max-width: 375px) {
     .about {
       padding: 45px 0; }
       .about .about_inner {
@@ -520,7 +520,7 @@ header {
             margin-bottom: 22px;
             line-height: 40px; }
       .about .swiper2 {
-        max-width: 320px; }
+        max-width: 375px; }
         .about .swiper2 .swiper-pagination-fraction {
           left: 2%; }
         .about .swiper2 .swiper-scrollbar.swiper-scrollbar-horizontal {
@@ -661,7 +661,7 @@ header {
     border: none;
     color: #FFFFFF;
     margin-bottom: 80px; }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .products .container {
     padding: 0 15px; }
     .products .container .products_inner .products_title {
