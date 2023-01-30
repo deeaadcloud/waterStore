@@ -952,7 +952,7 @@ header {
         }
     }
 
-    @media (max-width:320px) {
+    @media (max-width:375px) {
 
         .form_inner {
             flex-direction: column;
@@ -1171,7 +1171,7 @@ header {
         }
     }
 
-    @media (max-width:320px) {
+    @media (max-width:375px) {
         height: 100%;
         padding: 30px 0 94px;
         .container{
@@ -1230,7 +1230,7 @@ header {
             cursor: pointer;
         }
     }
-    @media (max-width:320px) {
+    @media (max-width:375px) {
         padding: 43px 0 26px;
         .container{
             padding: 0 15px;
@@ -1328,7 +1328,7 @@ header {
             opacity: 0.8;
         }
     }
-    @media (max-width:320px) {
+    @media (max-width:375px) {
         width: 290px;
         height: 175px;
         .popup_suc-title {
@@ -1370,7 +1370,7 @@ header {
         margin-bottom: 15px;
         color: $textBlackCol;
     }
-    @media (max-width:320px) {
+    @media (max-width:375px) {
         .popup_title{
             font-size: 30px;
             line-height: 40px;
@@ -1391,7 +1391,7 @@ header {
     padding: 20px 40px;
     transition: 0.5s all;
     z-index: 99;
-    @media (max-width:320px) {
+    @media (max-width:375px) {
         width: 290px;
         height: 508px;
         padding:40px 20px;
@@ -1565,7 +1565,7 @@ header {
         }
     }
 
-    @media (max-width:320px) {
+    @media (max-width:375px) {
         padding: 40px 0;
         height: 100%;
 

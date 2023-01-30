@@ -602,7 +602,7 @@ header {
           font-weight: 700;
           border: none;
           color: #FFFFFF; }
-  @media (max-width: 320px) {
+  @media (max-width: 375px) {
     .form .form_inner {
       flex-direction: column;
       gap: 40px; }
@@ -748,7 +748,7 @@ header {
       font-size: 18px;
       color: #FFFFFF;
       margin-top: 35px; }
-  @media (max-width: 320px) {
+  @media (max-width: 375px) {
     .partners {
       height: 100%;
       padding: 30px 0 94px; }
@@ -787,7 +787,7 @@ header {
     gap: 40px; }
     .contact .contact_icon .contact_icon-item:hover {
       cursor: pointer; }
-  @media (max-width: 320px) {
+  @media (max-width: 375px) {
     .contact {
       padding: 43px 0 26px; }
       .contact .container {
@@ -866,7 +866,7 @@ header {
     box-shadow: 0px 15px 30px 0px #1946BA33; }
     .popup_suc .close-popup2:hover {
       opacity: 0.8; }
-  @media (max-width: 320px) {
+  @media (max-width: 375px) {
     .popup_suc {
       width: 290px;
       height: 175px; }
@@ -899,7 +899,7 @@ header {
     line-height: 25px;
     margin-bottom: 15px;
     color: #2A2A2A; }
-  @media (max-width: 320px) {
+  @media (max-width: 375px) {
     .popup__bg.active .popup_title {
       font-size: 30px;
       line-height: 40px;
@@ -916,7 +916,7 @@ header {
   padding: 20px 40px;
   transition: 0.5s all;
   z-index: 99; }
-  @media (max-width: 320px) {
+  @media (max-width: 375px) {
     .popup {
       width: 290px;
       height: 508px;
@@ -1038,7 +1038,7 @@ header {
       font-weight: 400; }
       .footer .footer_inner .footer_bot .footer_bot-text span {
         font-weight: 700; }
-  @media (max-width: 320px) {
+  @media (max-width: 375px) {
     .footer {
       padding: 40px 0;
       height: 100%; }
