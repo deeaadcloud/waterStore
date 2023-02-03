@@ -41,7 +41,7 @@ swipers.forEach(value => {
 
         },
         init: false,
-
+        lazy: true,
         pagination: {
             el: value.closest('.mySwiper').querySelector(".swiper-pagination"), //инициализируем пагиницию у ДАННОГО слайдера через поиск querySelector()
             clickable: true,
@@ -93,9 +93,19 @@ var swiper2 = new Swiper(".swiper2", {
         prevEl: ".swiper-button-prev",
     },
     breakpoints: {
-        377: {
+        465: {
+            slidesPerView: 1.5,
+        },
+        555: {
             slidesPerView: 2.5,
-        }
+        },
+        1000: {
+            slidesPerView: 1.5,
+        },
+        1200: {
+            slidesPerView: 2.5,
+        },
+
     }
 }
 );
