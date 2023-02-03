@@ -686,6 +686,7 @@ header {
             }
 
             .swiper-slide {
+                width: 100% !important;
                 img {
                     margin-top: 0%;
                 }
@@ -1626,7 +1627,7 @@ header {
         .container {
             padding: 0 15px;
             .contact_title{
-                
+                font-size: 60px;
             margin-bottom: 20px;
             }
             .contact_item {
@@ -1918,10 +1919,14 @@ header {
 
             .footer_top_list {
                 display: flex;
-                gap: 45px;
+                
             }
 
             .footer_top_list-item {
+                margin-right: 45px;
+                &:last-child{
+                    margin-right: 0;
+                }
                 .footer_top_list-item-link {
                     font-weight: 600;
                     font-size: 14px;
@@ -1938,10 +1943,17 @@ header {
 
             .footer_top_icon {
                 display: flex;
-                gap: 33px;
+                
 
-                .footer_top_icon-item:hover {
-                    cursor: pointer;
+                .footer_top_icon-item {
+                    margin-right: 33px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                    &:hover{
+                        cursor: pointer;
+                    }
+                    
                 }
             }
 
@@ -1972,8 +1984,42 @@ header {
             }
         }
     }
+    @media (max-width: 1100px) {
+        .footer_inner{
+            .footer_top{
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                .footer_top-title{
+                    margin-bottom: 20px;
+                }
+                .footer_top_list{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        
+    }
+    @media (max-width: 765px) {
+        .footer_inner{
+            .footer_top{
+                flex-direction: column;
+                align-items: center;
+                .footer_top_list{
+                    flex-direction: column;
+                    align-items: center;
+                    .footer_top_list-item{
+                        margin-bottom: 5px;
+                        margin-right: 0;
+                        
+                    }
+                }
+                
+            }
+        }
+        
+    }
 
-    @media (max-width: 376px) {
+    @media (max-width: 580px) {
         padding: 40px 0;
         height: 100%;
 
@@ -1983,19 +2029,13 @@ header {
 
             .footer_top {
                 display: flex;
-                flex-direction: column;
+                
                 align-items: center;
                 margin-bottom: 30px;
                 flex-direction: column;
 
                 .footer_top-title {
                     margin-bottom: 25px;
-                }
-
-                .footer_top_list {
-                    gap: 5px;
-                    flex-direction: column;
-                    align-items: center;
                 }
 
                 .footer_top_icon {
