@@ -847,14 +847,14 @@ header {
         }
 
         .swiper-button-prev:after {
-            background-image: url(./img/arrow.png);
+            background-image: url(./../img/arrow.png);
             content: '';
             width: 43px;
             height: 43px;
         }
 
         .swiper-button-next:after {
-            background-image: url(./img/arrow.png);
+            background-image: url(./../img/arrow.png);
             content: '';
             width: 43px;
             height: 43px;
@@ -1133,7 +1133,7 @@ header {
                 position: absolute;
                 top: -95px;
                 right: -65px;
-                background-image: url(./img/form_banner.png);
+                background-image: url(./../img/form_banner.png);
                 background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;
@@ -1323,10 +1323,17 @@ header {
                     transform: translateY(-10px)
                 }
             }
-
-            .products_catalog-items-text {
+            .products_catalog-items{
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            
+            
+            -text {
                 font-size: 16px;
                 color: $textBlackCol;
+                
             }
         }
 
@@ -1438,7 +1445,7 @@ header {
                 background-repeat: no-repeat;
                 left: 25%;
                 top: 22%;
-                background-image: url(./img/partVectorIc.svg);
+                background-image: url(./../img/partVectorIc.svg);
 
             }
         }
@@ -1456,7 +1463,7 @@ header {
                 background-repeat: no-repeat;
                 left: 22%;
                 top: 15%;
-                background-image: url(./img/partVectorIc1.svg);
+                background-image: url(./../img/partVectorIc1.svg);
 
             }
         }
@@ -1474,7 +1481,7 @@ header {
                 background-repeat: no-repeat;
                 left: 25%;
                 top: 20%;
-                background-image: url(./img/partVectorIc2.svg);
+                background-image: url(./../img/partVectorIc2.svg);
 
             }
         }
@@ -1492,7 +1499,7 @@ header {
                 background-repeat: no-repeat;
                 left: 35%;
                 top: 18%;
-                background-image: url(./img/partVectorIc3.svg);
+                background-image: url(./../img/partVectorIc3.svg);
 
             }
         }
@@ -1670,7 +1677,7 @@ header {
     }
 
     .square_layout {
-        background-image: url(./img/map.png);
+        background-image: url(./../img/map.png);
         position: absolute;
         left: -26px;
         top: -23px;
