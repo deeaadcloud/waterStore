@@ -10,6 +10,7 @@ body { display: flex; flex-direction: column; height: 100vh; justify-content: sp
 .big-container { width: 100%; max-width: 1400px; margin: 0 auto; height: 100%; position: relative; }
 
 .container { width: 100%; max-width: 1240px; margin: 0 auto; height: 100%; position: relative; }
+@media (max-width: 1000px) { .container { padding: 0 15px; } }
 
 header { padding: 31px 0 26px; }
 header .menu, header .burger-menu, header #burger-toggle { display: none; }

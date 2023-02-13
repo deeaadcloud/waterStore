@@ -80,7 +80,9 @@ body {
     margin: 0 auto;
     height: 100%;
     position: relative;
-
+    @media (max-width:1000px) {
+        padding: 0 15px;
+    }
 }
 
 header {
