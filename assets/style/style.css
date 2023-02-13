@@ -5,7 +5,7 @@ ul, li, h1, h2, h3, h4, h5, p, a { list-style: none; text-decoration: none; marg
 
 body, header, footer { position: relative; margin: 0 auto; padding: 0; width: 100%; background-color: #FFFFFF; letter-spacing: 0em; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: 600; }
 
-body { display: flex; flex-direction: column; height: 100%; }
+body { display: flex; flex-direction: column; height: 100vh; justify-content: space-between; }
 
 .big-container { width: 100%; max-width: 1400px; margin: 0 auto; height: 100%; position: relative; }
 
