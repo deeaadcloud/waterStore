@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+.order .order_inner .payment_title { margin: 110px 0; font-size: 72px; font-weight: 700; line-height: 75px; color: #1946ba; }
+.order .order_inner .payment_list { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 100px; }
+.order .order_inner .payment_list li:nth-child(1) { position: relative; }
+.order .order_inner .payment_list li:nth-child(1):before { content: ""; position: absolute; background-size: cover; width: 81px; height: 70px; background-position: center center; background-repeat: no-repeat; left: 35%; top: 22%; background-image: url(./../../img/pay-1.png); }
+.order .order_inner .payment_list li:nth-child(2) { position: relative; }
+.order .order_inner .payment_list li:nth-child(2):before { content: ""; position: absolute; background-size: cover; width: 87px; height: 70px; background-position: center center; background-repeat: no-repeat; left: 35%; top: 15%; background-image: url(./../../img/pay-2.png); }
+.order .order_inner .payment_list li:nth-child(3) { position: relative; }
+.order .order_inner .payment_list li:nth-child(3):before { content: ""; position: absolute; background-size: cover; width: 77px; height: 70px; background-position: center center; background-repeat: no-repeat; left: 38%; top: 12%; background-image: url(./../../img/pay-3.png); }
+.order .order_inner .payment_list-item { text-align: center; max-width: 300px; }
+.order .order_inner .payment_list-item img { margin-bottom: 35px; }
+.order .order_inner .payment_list-item p { font-size: 18px; font-weight: 600; line-height: 27px; color: #1946ba; }
+.order .order_inner .order_delivery { margin-bottom: 170px; }
+.order .order_inner .order_delivery .delivery_title { margin-bottom: 62px; font-size: 72px; font-weight: 700; line-height: 75px; color: #1946ba; }
+.order .order_inner .order_delivery .delivery_text { font-size: 14px; font-weight: 400; line-height: 25px; color: #2a2a2a; margin-bottom: 20px; }
+@media (max-width: 1000px) { .order .order_inner .payment_list { flex-direction: column; align-items: center; }
+  .order .order_inner .payment_list .payment_list-item { margin-bottom: 25px; } }
+@media (max-width: 555px) { .order .order_inner .payment_title { margin: 50px 0 79px; font-size: 30px; font-weight: 700; line-height: 40px; color: #1946ba; }
+  .order .order_inner .order_delivery { margin-bottom: 120px; }
+  .order .order_inner .order_delivery .delivery_title { margin-bottom: 50px; font-size: 30px; font-weight: 700; line-height: 40px; color: #1946ba; } }
+
+/*# sourceMappingURL=order.css.map */
