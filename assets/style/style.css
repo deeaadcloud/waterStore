@@ -114,7 +114,7 @@ header .header_inner .header_contact .header_btn:hover { opacity: 0.8; }
 
 .about { padding: 159px 0; }
 .about .about_inner { gap: 45px; display: flex; justify-content: flex-end; }
-.about .about_inner .about_inner-text { max-width: 540px; margin-left: 80px; }
+.about .about_inner .about_inner-text { max-width: 540px; }
 .about .about_inner .about_inner-text .about_inner-text-title { font-size: 72px; color: #1946BA; margin-bottom: 106px; line-height: 75px; }
 .about .about_inner .about_inner-text .about_inner-text-text { font-size: 14px; line-height: 25px; color: #2A2A2A; }
 .about .swiper2 { width: 100%; max-width: 750px; height: 430px; padding-top: 25px; margin: auto; right: 0; position: relative; overflow: hidden; }
@@ -139,19 +139,18 @@ header .header_inner .header_contact .header_btn:hover { opacity: 0.8; }
 @media (max-width: 1100px) { .about { padding: 80px 0; }
   .about .swiper2 .swiper-wrapper .swiper-slide { transform: translateX(-65px); margin-left: 0px; } }
 @media (max-width: 1000px) { .about { padding: 80px 0; }
-  .about .about_inner { flex-direction: column; align-items: center; }
-  .about .about_inner .about_inner-text { margin-left: 15px; }
+  .about .about_inner { flex-direction: column; }
   .about .about_inner .about_inner-text .about_inner-text-title { font-size: 72px; color: #1946BA; margin-bottom: 66px; line-height: 75px; }
   .about .swiper2 { max-width: 935px; }
   .about .swiper2 .swiper-scrollbar.swiper-scrollbar-horizontal { max-width: 700px; margin: 0 auto; }
   .about .swiper2 .swiper-wrapper .swiper-slide { transform: translateX(-65px); margin-left: 0px; } }
-@media (max-width: 555px) { .about .about_inner .about_inner-text .about_inner-text-title { font-size: 55px; }
+@media (max-width: 555px) { .about .about_inner .about_inner-text .about_inner-text-title { font-size: 30px; text-align: left; }
   .about .swiper2 .swiper-wrapper .swiper-slide { transform: translateX(-70px); margin-left: 5.4vw; } }
 @media (max-width: 465px) { .about .swiper2 .swiper-wrapper .swiper-slide { transform: translateX(-20px); margin-left: 25vw; margin-right: 10vw; opacity: 0; }
   .about .swiper2 .swiper-wrapper .swiper-slide-active { opacity: 1; } }
 @media (max-width: 376px) { .about { padding: 45px 0; }
   .about .about_inner { gap: 45px; flex-direction: column; }
-  .about .about_inner .about_inner-text { max-width: 540px; margin-left: 15px; }
+  .about .about_inner .about_inner-text { max-width: 540px; }
   .about .about_inner .about_inner-text .about_inner-text-title { font-size: 30px; color: #1946BA; margin-bottom: 22px; line-height: 40px; }
   .about .swiper2 { max-width: 376px; width: 100%; }
   .about .swiper2 .swiper-wrapper .swiper-slide { transform: translateX(-10px); margin-left: 13vw; opacity: 0; }

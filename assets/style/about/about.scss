@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+$blueCol: #1946ba;
+$textBlackCol: #2a2a2a;
+$textBlackGrCol: #8c8c8c;
+$textWhiteGrCol: #dedede;
+$textWhiteCol: #ffffff;
+
+.about {
+    padding: 0;
+    position: relative;
+    .container {
+        position: initial;
+        .about_top {
+            height: 654px;
+            .about_title {
+                font-size: 72px;
+                font-weight: 700;
+                line-height: 75px;
+                color: $blueCol;
+                margin: 100px 0 52px;
+            }
+            .about_info {
+                display: flex;
+                flex-wrap: wrap;
+                .about_info-text {
+                    flex: 0 0 50%;
+                    .about_info-text-t {
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 25px;
+                        color: $textBlackCol;
+                        margin-bottom: 40px;
+                    }
+                }
+                .about_info-img {
+                    position: absolute;
+                    top: -8%;
+                    right: 0;
+                }
+            }
+        }
+        .about_middle {
+            margin-bottom: 200px;
+            .about_middle_title {
+                font-size: 72px;
+                font-weight: 700;
+                line-height: 75px;
+                color: $blueCol;
+                margin-bottom: 50px;
+            }
+            .about_middle-list {
+                display: flex;
+                flex-wrap: wrap;
+                .about_middle-list-item {
+                    margin-right: 20px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                }
+                
+            }
+            
+        }
+        
+        @media (max-width:1250px) {
+            .about_top {
+                height: inherit;
+                margin-bottom: 100px;
+                .about_title {
+                    text-align: center;
+                }
+                .about_info {
+                    .about_info-text {
+                        flex: 0 0 100%;
+                        .about_info-text-t {
+                            margin-bottom: 20px;
+                        }
+                    }
+                    .about_info-img {
+                        display: none;
+                    }
+                }
+            }
+            .about_middle {
+                margin-bottom: 100px;
+                .about_middle_title {
+                    text-align: center;
+                }
+                .about_middle-list {
+                    justify-content: center;
+                    .about_middle-list-item {
+                        margin-right: 20px;
+                        margin-bottom: 20px;
+                        &:last-child{
+                            margin-right: 0;
+                            margin-bottom: 0;
+                        }
+                    }
+                    
+                }
+                
+            }
+        }
+        @media (max-width:555px) {
+            .about_top {
+                .about_title {
+font-size: 30px;
+font-weight: 700;
+line-height: 41px;
+margin-bottom: 30px;
+text-align: start;
+                }
+                .about_info {
+                    .about_info-text {
+                        flex: 0 0 100%;
+                        .about_info-text-t {
+                            margin-bottom: 20px;
+                        }
+                    }
+                    .about_info-img {
+                        display: none;
+                    }
+                }
+            }
+            .about_middle {
+                margin-bottom: 100px;
+                .about_middle_title {
+                    font-size: 30px;
+font-weight: 700;
+line-height: 41px;
+margin-bottom: 51px;
+text-align: start;
+                }
+                .about_middle-list {
+                    justify-content: center;
+                    .about_middle-list-item {
+                        margin-right: 20px;
+                        margin-bottom: 20px;
+                        &:last-child{
+                            margin-right: 0;
+                            margin-bottom: 0;
+                        }
+                    }
+                    
+                }
+                
+            }
+        }
+    }
+    .big-container {
+        margin-bottom: 120px;
+        padding: 0 15px;
+    }
+}

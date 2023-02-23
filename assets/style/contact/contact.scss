@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+$blueCol: #1946ba;
+$textBlackCol: #2a2a2a;
+$textBlackGrCol: #8c8c8c;
+$textWhiteGrCol: #dedede;
+$textWhiteCol: #ffffff;
+
+.about_form {
+    margin-top: 100px;
+    .container {
+        form {
+            label {
+                max-width: 465px;
+                width: 100%;
+                margin-bottom: 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                &:nth-child(5) {
+                    input {
+                        height: 80px;
+                        position: relative;
+                        padding: 0px 20px 30px;
+                        &::placeholder {
+                            position: absolute;
+                            top: 20%;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            .label__text {
+                font-size: 14px;
+                text-transform: uppercase;
+                font-weight: 500;
+                color: #cfd0d3;
+                margin-bottom: 5px;
+            }
+
+            input {
+                height: 40px;
+                font-size: 14px;
+                padding: 10px 20px 15px;
+                border: none;
+                outline: none;
+                border: 1px solid #dedede;
+                color: $textBlackGrCol;
+                background-color: transparent;
+            }
+
+            input:focus {
+                border-bottom: 1px solid $blueCol;
+            }
+
+            input:focus + .label__text {
+                color: $blueCol;
+            }
+
+            textarea {
+                resize: none;
+                width: 100%;
+                height: 150px;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid #cfd0d3;
+                font-size: 18px;
+                padding-top: 5px;
+            }
+
+            textarea:focus {
+                border-bottom: 1px solid $blueCol;
+            }
+
+            textarea:focus + .label__text {
+                color: $blueCol;
+            }
+
+            button {
+                max-width: 290px;
+                width: 100%;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                font-size: 14px;
+                border: 2px solid $blueCol;
+                background: $blueCol;
+                cursor: pointer;
+                transition: 0.5s all;
+                box-shadow: 0px 15px 30px 0px #1946ba33;
+                margin-top: 30px;
+                margin-bottom: 90px;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+            .popup_title {
+                font-size: 72px;
+                font-weight: 700;
+                line-height: 75px;
+                color: $blueCol;
+                margin-bottom: 100px;
+            }
+            .popup_text {
+            }
+        }
+    }
+}

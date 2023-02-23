@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+.about { padding: 0; position: relative; }
+.about .container { position: initial; }
+.about .container .about_top { height: 654px; }
+.about .container .about_top .about_title { font-size: 72px; font-weight: 700; line-height: 75px; color: #1946ba; margin: 100px 0 52px; }
+.about .container .about_top .about_info { display: flex; flex-wrap: wrap; }
+.about .container .about_top .about_info .about_info-text { flex: 0 0 50%; }
+.about .container .about_top .about_info .about_info-text .about_info-text-t { font-size: 14px; font-weight: 400; line-height: 25px; color: #2a2a2a; margin-bottom: 40px; }
+.about .container .about_top .about_info .about_info-img { position: absolute; top: -8%; right: 0; }
+.about .container .about_middle { margin-bottom: 200px; }
+.about .container .about_middle .about_middle_title { font-size: 72px; font-weight: 700; line-height: 75px; color: #1946ba; margin-bottom: 50px; }
+.about .container .about_middle .about_middle-list { display: flex; flex-wrap: wrap; }
+.about .container .about_middle .about_middle-list .about_middle-list-item { margin-right: 20px; }
+.about .container .about_middle .about_middle-list .about_middle-list-item:last-child { margin-right: 0; }
+@media (max-width: 1250px) { .about .container .about_top { height: inherit; margin-bottom: 100px; }
+  .about .container .about_top .about_title { text-align: center; }
+  .about .container .about_top .about_info .about_info-text { flex: 0 0 100%; }
+  .about .container .about_top .about_info .about_info-text .about_info-text-t { margin-bottom: 20px; }
+  .about .container .about_top .about_info .about_info-img { display: none; }
+  .about .container .about_middle { margin-bottom: 100px; }
+  .about .container .about_middle .about_middle_title { text-align: center; }
+  .about .container .about_middle .about_middle-list { justify-content: center; }
+  .about .container .about_middle .about_middle-list .about_middle-list-item { margin-right: 20px; margin-bottom: 20px; }
+  .about .container .about_middle .about_middle-list .about_middle-list-item:last-child { margin-right: 0; margin-bottom: 0; } }
+@media (max-width: 555px) { .about .container .about_top .about_title { font-size: 30px; font-weight: 700; line-height: 41px; margin-bottom: 30px; text-align: start; }
+  .about .container .about_top .about_info .about_info-text { flex: 0 0 100%; }
+  .about .container .about_top .about_info .about_info-text .about_info-text-t { margin-bottom: 20px; }
+  .about .container .about_top .about_info .about_info-img { display: none; }
+  .about .container .about_middle { margin-bottom: 100px; }
+  .about .container .about_middle .about_middle_title { font-size: 30px; font-weight: 700; line-height: 41px; margin-bottom: 51px; text-align: start; }
+  .about .container .about_middle .about_middle-list { justify-content: center; }
+  .about .container .about_middle .about_middle-list .about_middle-list-item { margin-right: 20px; margin-bottom: 20px; }
+  .about .container .about_middle .about_middle-list .about_middle-list-item:last-child { margin-right: 0; margin-bottom: 0; } }
+.about .big-container { margin-bottom: 120px; padding: 0 15px; }
+
+/*# sourceMappingURL=about.css.map */

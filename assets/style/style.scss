@@ -772,7 +772,7 @@ header {
 
         .about_inner-text {
             max-width: 540px;
-            margin-left: 80px;
+            // margin-left: 80px;
 
             .about_inner-text-title {
                 font-size: 72px;
@@ -956,10 +956,9 @@ header {
 
         .about_inner {
             flex-direction: column;
-            align-items: center;
+            // align-items: center;
 
             .about_inner-text {
-                margin-left: 15px;
 
                 .about_inner-text-title {
                     font-size: 72px;
@@ -994,7 +993,8 @@ header {
         .about_inner {
             .about_inner-text {
                 .about_inner-text-title {
-                    font-size: 55px;
+                    font-size: 30px;
+                    text-align: left;
                 }
 
             }
@@ -1040,7 +1040,6 @@ header {
 
             .about_inner-text {
                 max-width: 540px;
-                margin-left: 15px;
 
                 .about_inner-text-title {
                     font-size: 30px;
