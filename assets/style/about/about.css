@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 .about { padding: 0; position: relative; }
-.about .container { position: initial; }
+.about .container { position: relative; }
 .about .container .about_top { height: 654px; }
 .about .container .about_top .about_title { font-size: 72px; font-weight: 700; line-height: 75px; color: #1946ba; margin: 100px 0 52px; }
 .about .container .about_top .about_info { display: flex; flex-wrap: wrap; }

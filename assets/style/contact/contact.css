@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 .about_form { margin-top: 100px; }
+.about_form .container::after { content: ""; position: absolute; background-image: url(./../../img/voda59.png); background-size: cover; background-position: center top; background-repeat: no-repeat; max-width: 750px; max-height: 985px; width: 100%; height: 100vw; right: -5%; top: -30%; }
+.about_form .container form { position: relative; }
 .about_form .container form label { max-width: 465px; width: 100%; margin-bottom: 20px; display: flex; flex-direction: column-reverse; }
 .about_form .container form label:nth-child(5) input { height: 80px; position: relative; padding: 0px 20px 30px; }
 .about_form .container form label:nth-child(5) input::placeholder { position: absolute; top: 20%; font-size: 14px; }
