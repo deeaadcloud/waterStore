@@ -147,6 +147,14 @@ document.addEventListener('click', (e) => { // Вешаем обработчик
 
 // popup par
 
+document.querySelectorAll(".header_menu-list-item a").forEach((link) => {
+    if (link.href === window.location.href) {
+        link.classList.add("active");
+        link.setAttribute("aria-current", "page");
+    }
+});
+// active link
+
 
 
 
